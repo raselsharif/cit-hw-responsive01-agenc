@@ -1,0 +1,1015 @@
+@media (max-width: 575.98px) {
+
+    /* ============ Extra small device ============ */
+
+    /* ======= nav section ============= */
+    #main__nav {
+        padding: 10px 0;
+    }
+
+    .navbar-brand img {
+        width: 100px;
+    }
+
+    #navbarNav {
+        text-align: center;
+        height: 100vh;
+    }
+
+    .main__nav__menu {
+        padding-top: 30px;
+    }
+
+    .main__nav__link {
+        line-height: 20px;
+    }
+
+    .common__btn {
+        margin-top: 10px;
+        padding: 6px 30px;
+        font-size: 12px;
+    }
+
+    /* ========= banner section ============ */
+    #banner {
+        padding: 80px 0 50px 0;
+    }
+
+    .banner__heading {
+        font-weight: 600;
+        font-size: 35px;
+        line-height: 40px;
+        margin-bottom: 15px;
+    }
+
+    .banner__paragraph {
+        margin-bottom: 10px;
+    }
+
+    .banner__img {
+        display: none;
+    }
+
+    /* ======== our success section ============ */
+    #success {
+        padding: 40px 0;
+        background: #F8F6FE;
+    }
+
+    .success__heading__area {
+        text-align: center;
+    }
+
+    .success__heading {
+        font-size: 20px;
+        line-height: 50%;
+        margin-bottom: 15px;
+    }
+
+    .success__heading__main {
+        font-size: 28px;
+        line-height: 32px;
+        margin-bottom: 30px;
+        max-width: 100%;
+    }
+
+    .success__count__area {
+        text-align: center;
+    }
+
+    .success__items {
+        margin-bottom: 20px;
+    }
+
+    .success__count {
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 20px;
+        margin-bottom: 15px;
+    }
+
+    .success__paragraph {
+        font-size: 17px;
+        line-height: 20px;
+        margin-bottom: 15px;
+    }
+
+    .success__customer {
+        text-align: center;
+        margin-bottom: 10px;
+        position: relative;
+    }
+
+    .success__customer__items {
+        height: 35px;
+        width: 100%;
+        margin-left: 30%;
+    }
+
+    .success__customer__star__items {
+        justify-content: center;
+    }
+
+    /* ========= service section ========= */
+    #service {
+        padding: 60px 0 30px 0;
+    }
+
+    .common__heading {
+        font-size: 32px;
+        line-height: 35px;
+        margin-bottom: 25px;
+        text-align: center;
+    }
+
+    .common__paragraph {
+        font-size: 15px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .service__items {
+        padding: 5px;
+        margin-bottom: 10px;
+    }
+
+    .service__items img {
+        width: 80px;
+    }
+
+    .service__heading {
+        font-size: 20px;
+        line-height: 25px;
+        margin: 20px 0 10px 0;
+    }
+
+    .service__paragraph {
+        font-size: 14px;
+    }
+
+    /* ========= work section ============= */
+    #work {
+        padding: 50px 0;
+    }
+
+    .work__btn__area {
+        padding: 20px 0 30px 0;
+        text-align: center;
+        gap: 5px;
+    }
+
+    .work__btn {
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 10px;
+    }
+
+    .work__heading {
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 20px;
+        margin: 20px 0 10px 0;
+    }
+
+    .work__paragraph {
+        max-width: 100%;
+        text-align: center;
+    }
+
+    p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .work__img {
+        height: 200px;
+    }
+
+    /* =========== agence section =========== */
+    #agenc {
+        padding: 50px 0;
+    }
+
+    .agenc__items__main {
+        margin-top: 20px;
+        row-gap: 20px;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .agence__items__mid {
+        margin-top: 0;
+    }
+
+    .agenc__banner {
+        display: none;
+    }
+
+    .agenc__paragraph {
+        text-align: center;
+        max-width: 100%;
+    }
+
+    /* ==== review section ======= */
+    #review {
+        padding: 50px 0 50px 0;
+    }
+
+    .review__card__main .col-lg-4 {
+        padding: 0px 0 10px 0;
+    }
+
+    .review__card {
+        padding: 90px 20px 20px 10px;
+        box-shadow: 0px 15px 60px rgba(0, 0, 0, 0.06);
+        border-radius: 20px;
+        margin: 0 12px;
+    }
+
+    /* ======= quote section ======== */
+    #quote {
+        padding: 50px 0;
+        background: #F3F3F3;
+    }
+
+    .quote__heading {
+        font-weight: 700;
+        font-size: 25px;
+        line-height: 30px;
+    }
+
+    .quote__btn {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    /* ====== footer ======= */
+    footer {
+        padding: 50px 0 40px 0;
+        text-align: center;
+    }
+
+    .footer__heading {
+        font-size: 18px;
+        line-height: 20px;
+        margin-bottom: 20px;
+    }
+
+    .footer__link__list {
+        gap: 15px;
+    }
+
+    #copy .container {
+        border-top: 1px solid #E8E8E8;
+        padding: 20px 0 20px 0;
+    }
+
+
+    /* ===== back to top ======= */
+    .back__to__top {
+        height: 40px;
+        width: 40px;
+        top: 90%;
+    }
+
+    .back__to__top i {
+        font-size: 20px;
+    }
+
+    .back__to__top h4 {
+        display: none;
+    }
+
+    /* ======== end ============= */
+    html,
+    body {
+        overflow-x: hidden;
+    }
+}
+
+@media (min-width: 576px) and (max-width:767.98px) {
+
+    /* ============ small device ============ */
+
+    /* ======= nav section ============= */
+    #main__nav {
+        padding: 15px 0;
+    }
+
+    .navbar-brand img {
+        width: 150px;
+    }
+
+    #navbarNav {
+        text-align: center;
+        height: 100vh;
+    }
+
+    .main__nav__menu {
+        padding-top: 30px;
+    }
+
+    .main__nav__link {
+        line-height: 20px;
+    }
+
+    .common__btn {
+        margin-top: 10px;
+        padding: 6px 30px;
+        font-size: 12px;
+    }
+
+    /* ========= banner section ============ */
+    #banner {
+        padding: 130px 0 50px 0;
+    }
+
+    .banner__heading {
+        font-weight: 600;
+        font-size: 40px;
+        line-height: 45px;
+        margin-bottom: 20px;
+    }
+
+    .banner__paragraph {
+        margin-bottom: 15px;
+    }
+
+    .banner__img {
+        display: none;
+    }
+
+    /* ======== our success section ============ */
+    #success {
+        padding: 50px 0;
+    }
+
+    .success__heading__area {
+        text-align: center;
+    }
+
+    .success__heading {
+        font-size: 25px;
+        line-height: 50%;
+        margin-bottom: 15px;
+    }
+
+    .success__heading__main {
+        font-size: 30px;
+        line-height: 32px;
+        margin-bottom: 30px;
+        max-width: 100%;
+    }
+
+    .success__count__area {
+        text-align: center;
+    }
+
+    .success__items {
+        margin-bottom: 20px;
+    }
+
+    .success__count {
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 20px;
+        margin-bottom: 15px;
+    }
+
+    .success__paragraph {
+        font-size: 17px;
+        line-height: 20px;
+        margin-bottom: 15px;
+    }
+
+    .success__customer {
+        text-align: center;
+        margin-bottom: 10px;
+        position: relative;
+    }
+
+    .success__customer__items {
+        height: 35px;
+        width: 100%;
+        margin-left: 38%;
+    }
+
+    .success__customer__star__items {
+        justify-content: center;
+    }
+
+    /* ========= service section ========= */
+    #service {
+        padding: 60px 0 30px 0;
+    }
+
+    .common__heading {
+        font-size: 32px;
+        line-height: 35px;
+        margin-bottom: 25px;
+        text-align: center;
+    }
+
+    .common__paragraph {
+        font-size: 15px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .service__items {
+        padding: 5px;
+        margin-bottom: 10px;
+    }
+
+    .service__items img {
+        width: 80px;
+    }
+
+    .service__heading {
+        font-size: 20px;
+        line-height: 25px;
+        margin: 20px 0 10px 0;
+    }
+
+    .service__paragraph {
+        font-size: 14px;
+    }
+
+    /* ========= work section ============= */
+    #work {
+        padding: 50px 0;
+    }
+
+    .work__btn__area {
+        padding: 20px 0 30px 0;
+        text-align: center;
+        gap: 5px;
+    }
+
+    .work__btn {
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 10px;
+    }
+
+    .work__heading {
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 20px;
+        margin: 20px 0 10px 0;
+    }
+
+    .work__paragraph {
+        max-width: 100%;
+        text-align: center;
+        margin: 0 5px;
+    }
+
+    p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .work__img {
+        height: 250px;
+    }
+
+    /* =========== agence section =========== */
+    #agenc {
+        padding: 50px 0;
+    }
+
+    .agenc__items__main {
+        margin-top: 20px;
+        row-gap: 20px;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .agenc__paragraph {
+        max-width: 100%;
+    }
+
+    .agence__items__mid {
+        margin-top: 0;
+    }
+
+    .agenc__banner {
+        display: none;
+    }
+
+    /* ==== review section ======= */
+    #review {
+        padding: 50px 0 50px 0;
+    }
+
+    .review__card__main .col-lg-4 {
+        padding: 0px 0 10px 0;
+    }
+
+    .review__card {
+        padding: 90px 20px 20px 10px;
+        box-shadow: 0px 15px 60px rgba(0, 0, 0, 0.06);
+        border-radius: 20px;
+        margin: 0 12px;
+    }
+
+    /* ======= quote section ======== */
+    #quote {
+        padding: 50px 0;
+        background: #F3F3F3;
+    }
+
+    .quote__heading {
+        font-weight: 700;
+        font-size: 25px;
+        line-height: 30px;
+    }
+
+    .quote__btn {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    /* ====== footer ======= */
+    footer {
+        padding: 50px 0 40px 0;
+        text-align: center;
+    }
+
+    .footer__heading {
+        font-size: 18px;
+        line-height: 20px;
+        margin-bottom: 20px;
+    }
+
+    .footer__link__list {
+        gap: 15px;
+    }
+
+    #copy .container {
+        border-top: 1px solid #E8E8E8;
+        padding: 20px 0 20px 0;
+    }
+
+
+    /* ===== back to top ======= */
+    .back__to__top {
+        height: 40px;
+        width: 40px;
+        top: 95%;
+    }
+
+    .back__to__top i {
+        font-size: 20px;
+    }
+
+    .back__to__top h4 {
+        display: none;
+    }
+
+    /* ======== end ============= */
+    html,
+    body {
+        overflow-x: hidden;
+    }
+}
+
+@media (min-width: 768px) and (max-width:991.98px) {
+
+    /* ========== medium device ================ */
+    #main__nav {
+        padding: 15px 0;
+    }
+
+    .navbar-brand img {
+        width: 150px;
+    }
+
+    #navbarNav {
+        text-align: center;
+        height: 100vh;
+    }
+
+    .main__nav__menu {
+        padding-top: 30px;
+    }
+
+    .main__nav__link {
+        line-height: 20px;
+    }
+
+    .commo__btn__main {
+        text-align: center;
+    }
+
+    .common__btn {
+        margin-top: 10px;
+        padding: 6px 30px;
+        font-size: 12px;
+    }
+
+    /* ========= banner section ============ */
+    #banner {
+        padding: 130px 0 60px 0;
+    }
+
+    .banner__heading {
+        font-weight: 700;
+        font-size: 45px;
+        line-height: 40px;
+        margin-bottom: 25px;
+        text-align: center;
+    }
+
+    .banner__paragraph {
+        margin-bottom: 15px;
+        text-align: center;
+        max-width: 100%;
+    }
+
+    .banner__img {
+        display: none;
+    }
+
+    /* ======== our success section ============ */
+    #success {
+        padding: 50px 0;
+    }
+
+    .success__heading__area {
+        text-align: center;
+    }
+
+    .success__heading {
+        font-size: 25px;
+        line-height: 50%;
+        margin-bottom: 15px;
+    }
+
+    .success__heading__main {
+        font-size: 30px;
+        line-height: 32px;
+        margin-bottom: 30px;
+        max-width: 100%;
+    }
+
+    .success__count__area {
+        text-align: center;
+    }
+
+    .success__items {
+        margin-bottom: 20px;
+    }
+
+    .success__count {
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 20px;
+        margin-bottom: 15px;
+    }
+
+    .success__paragraph {
+        font-size: 17px;
+        line-height: 20px;
+        margin-bottom: 15px;
+    }
+
+    .success__customer {
+        text-align: center;
+        margin-bottom: 10px;
+        position: relative;
+    }
+
+    .success__customer__items {
+        height: 35px;
+        width: 100%;
+        margin-left: 42%;
+    }
+
+    .success__customer__star__items {
+        justify-content: center;
+    }
+
+    /* ========= service section ========= */
+    #service {
+        padding: 60px 0 30px 0;
+    }
+
+    .common__heading {
+        font-size: 32px;
+        line-height: 35px;
+        margin-bottom: 25px;
+        text-align: center;
+    }
+
+    .common__paragraph {
+        font-size: 15px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .service__items {
+        padding: 5px;
+        margin-bottom: 10px;
+    }
+
+    .service__items img {
+        width: 80px;
+    }
+
+    .service__heading {
+        font-size: 20px;
+        line-height: 25px;
+        margin: 20px 0 10px 0;
+    }
+
+    .service__paragraph {
+        font-size: 14px;
+    }
+
+    /* ========= work section ============= */
+    #work {
+        padding: 50px 0;
+    }
+
+    .work__btn__area {
+        padding: 20px 0 30px 0;
+        text-align: center;
+        gap: 5px;
+    }
+
+    .work__btn {
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 10px;
+    }
+
+    .work__heading {
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 20px;
+        margin: 20px 0 10px 0;
+    }
+
+    .work__paragraph {
+        max-width: 100%;
+        text-align: center;
+        margin: 0 5px;
+    }
+
+    p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .work__img {
+        height: 250px;
+    }
+
+    /* =========== agence section =========== */
+    #agenc {
+        padding: 50px 0;
+    }
+
+    .agenc__items__main {
+        margin-top: 20px;
+        row-gap: 20px;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .agenc__paragraph {
+        max-width: 100%;
+    }
+
+    .agence__items__mid {
+        margin-top: 0;
+    }
+
+    .agenc__banner {
+        display: none;
+    }
+
+    /* ==== review section ======= */
+    #review {
+        padding: 50px 0 50px 0;
+    }
+
+    .review__card__main .col-lg-4 {
+        padding: 0px 0 10px 0;
+    }
+
+    .review__card {
+        padding: 90px 20px 20px 20px;
+        box-shadow: 0px 15px 60px rgba(0, 0, 0, 0.06);
+        border-radius: 20px;
+        margin: 0 12px;
+    }
+
+    /* ======= quote section ======== */
+    #quote {
+        padding: 50px 0;
+        background: #F3F3F3;
+    }
+
+    .quote__heading {
+        font-weight: 700;
+        font-size: 25px;
+        line-height: 30px;
+    }
+
+    .quote__btn {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    /* ====== footer ======= */
+    footer {
+        padding: 50px 0 40px 0;
+        text-align: center;
+    }
+
+    .footer__heading {
+        font-size: 18px;
+        line-height: 20px;
+        margin-bottom: 20px;
+    }
+
+    .footer__link__list {
+        gap: 15px;
+    }
+
+    #copy .container {
+        border-top: 1px solid #E8E8E8;
+        padding: 20px 0 20px 0;
+    }
+
+    /* ===== back to top ======= */
+    .back__to__top {
+        height: 50px;
+        width: 50px;
+        top: 90%;
+    }
+
+    .back__to__top h4 {
+        display: none;
+    }
+
+    /* ===================================== */
+    html,
+    body {
+        overflow-x: hidden;
+    }
+}
+
+@media (min-width: 992px) and (max-width:1199.98px) {
+
+    /* ========== medium device ================ */
+
+
+    /* ========= nav section ============ */
+    #main__nav {
+        padding: 15px 0;
+    }
+
+    .navbar-brand img {
+        width: 150px;
+    }
+
+    #navbarNav {
+        text-align: center;
+        height: 100vh;
+    }
+
+    .main__nav__menu {
+        padding-top: 40px;
+    }
+
+    .main__nav__link {
+        line-height: 30px;
+    }
+
+    .common__btn {
+        margin-top: 10px;
+        padding: 8px 30px;
+        font-size: 14px;
+    }
+
+    /* ========= banner section ============ */
+    #banner {
+        padding: 130px 0 60px 0;
+    }
+
+    .banner__heading {
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 45px;
+        margin-bottom: 25px;
+    }
+
+    .banner__paragraph {
+        margin-bottom: 15px;
+        max-width: 100%;
+    }
+
+    /* ========== success section ========== */
+    #success {
+        padding: 70px 0;
+    }
+
+    .success__count {
+        font-size: 40px;
+        margin-bottom: 0;
+    }
+
+    .success__paragraph {
+        font-size: 15px;
+        margin-bottom: 15px;
+    }
+
+    /* ======== service section =========== */
+    #service {
+        padding: 80px 0;
+    }
+
+    .common__heading {
+        font-size: 40px;
+        line-height: 40px;
+        margin-bottom: 30px;
+    }
+
+    .service__items {
+        padding: 30px 20px;
+    }
+
+    /* =========== work section ============= */
+    #work {
+        padding: 70px 0;
+    }
+
+    .work__btn__area {
+        padding: 20px 0 30px 0;
+    }
+
+    .work__btn {
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    .work__paragraph {
+        max-width: 100%;
+        margin: 0 10px;
+    }
+
+    .work__img {
+        height: 250px;
+    }
+
+    /* =========== agenc section ============ */
+    #agenc {
+        padding: 70px 0 0 0;
+    }
+
+    .agenc__items__main {
+        margin-top: 40px;
+        row-gap: 30px;
+    }
+
+    /* ========= client review ============ */
+    #review {
+        padding: 60px 0;
+    }
+
+    .review__card {
+        padding: 80px 20px 30px 20px;
+        box-shadow: 0px 15px 60px rgba(0, 0, 0, 0.06);
+        border-radius: 20px;
+        margin: 0 12px;
+    }
+
+    /* ======= quotes section =============== */
+    #quote {
+        padding: 60px 0;
+    }
+
+    /* ====== footer ======= */
+    footer {
+        padding: 60px 0 30px 0;
+    }
+
+    #copy .container {
+        padding: 20px 0;
+    }
+
+    /* ===== back to top ======= */
+    .back__to__top {
+        height: 50px;
+        width: 50px;
+        top: 90%;
+    }
+
+    .back__to__top h4 {
+        display: none;
+    }
+}

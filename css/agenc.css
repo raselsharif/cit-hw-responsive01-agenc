@@ -1,0 +1,23 @@
+#agenc {
+    padding: 150px 0;
+}
+
+.agenc__items__main {
+    margin-top: 85px;
+    row-gap: 42px;
+    justify-content: center;
+}
+
+.agence__items__mid{
+    margin-top: 40px;
+}
+
+.agenc__heading {
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    margin: 20px 0 10px 0;
+}
+.agenc__paragraph{
+    max-width: 344px;
+}

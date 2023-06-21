@@ -1,0 +1,35 @@
+#service {
+    padding: 150px 0;
+}
+
+.common__heading {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 54px;
+    margin-bottom: 20px;
+    
+}
+
+.service__heading {
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    margin: 40px 0 20px 0;
+}
+
+.service__items {
+    padding: 50px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    transition: var(--transition);
+    -webkit-transition: var(--transition);
+    -moz-transition: var(--transition);
+    -ms-transition: var(--transition);
+    -o-transition: var(--transition);
+}
+.service__items:hover{
+    box-shadow: 0px 6px 35px rgba(0, 0, 0, 0.06);
+}

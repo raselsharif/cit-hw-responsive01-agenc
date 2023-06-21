@@ -1,0 +1,127 @@
+#review {
+    padding: 150px 0 96px 0;
+}
+
+#review .container {
+    position: relative;
+}
+
+.review__card__main {
+    margin-top: 50px;
+}
+.review__card__main .col-lg-4 {
+    padding: 190px 0 10px 0;
+}
+
+.review__card {
+    padding: 114px 58px 54px 58px;
+    box-shadow: 0px 15px 60px rgba(0, 0, 0, 0.06);
+    border-radius: 20px;
+    margin: 0 12px;
+}
+.slick-list{
+    padding: 0 !important;
+}
+.slick-center{
+ margin-top: -180px;
+ transition: all linear 0.3s;
+ -webkit-transition: all linear 0.3s;
+ -moz-transition: all linear 0.3s;
+ -ms-transition: all linear 0.3s;
+ -o-transition: all linear 0.3s;
+}
+.review__star__items {
+    padding-left: 0;
+    margin: 20px 0 30px;
+    color: #F9BD2C;
+}
+
+.review__logo {
+    height: 47px;
+    width: 47px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.review__logo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.review__card__main {
+    /* border: 1px solid blue; */
+}
+
+.review__paragraph {
+    position: relative;
+}
+
+.review__paragraph::after {
+    content: url(../images/reviewQoutes.png);
+    position: absolute;
+    top: -60px;
+    left: 0;
+}
+
+.review__name {
+    font-weight: 600;
+    font-size: 20px;
+    color: #232323;
+    text-transform: capitalize;
+    margin-bottom: 0;
+}
+
+.review__desig {
+    margin-bottom: 0;
+    text-transform: capitalize;
+}
+
+.review__slide__btn {
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    /*background: red;
+    */
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+}
+
+.review__slide__btn .slick-dots {
+    display: flex !important;
+    justify-content: center;
+    gap: 10px;
+}
+
+.review__slide__btn .slick-dots li button {
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    text-indent: -99999px;
+    border: none;
+    outline: none;
+    background: rgba(106, 77, 244, 0.1);
+}
+
+.review__slide__btn .slick-dots .slick-active button {
+    background: #6A4DF4;
+}

@@ -1,0 +1,38 @@
+#quote {
+    padding: 150px 0;
+    background: #F3F3F3;
+}
+
+.quote__heading {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+}
+
+.quote__btn {
+    font-family: var(--myFont);
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 26px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #6A4DF4;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    transition: var(--transition);
+    -webkit-transition: var(--transition);
+    -moz-transition: var(--transition);
+    -ms-transition: var(--transition);
+    -o-transition: var(--transition);
+}
+.quote__btn:hover{
+    opacity: 0.8;
+}
+#quote .form{
+    background: #FFFFFF;
+}

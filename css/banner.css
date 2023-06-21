@@ -1,0 +1,14 @@
+#banner {
+    padding: 186px 0 150px 0;
+}
+
+.banner__heading {
+    font-weight: 700;
+    font-size: 75px;
+    line-height: 90px;
+    margin-bottom: 24px;
+}
+.banner__paragraph{
+    margin-bottom: 30px;
+    max-width: 604px;
+}
