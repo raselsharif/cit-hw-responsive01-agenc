@@ -1,4 +1,9 @@
 $(function () {
+    // ======= hide menubar click on nav link =========
+    $(".nav-link").click(function () {
+        $("#navbarNav").removeClass("show")
+    })
+
     $(window).scroll(function () {
         let scroll = $(this).scrollTop();
 
@@ -10,18 +15,17 @@ $(function () {
             $(".navbar").removeClass("fix__nav");
         }
         // ========= back to top ======
-        if (scroll>500){
-            // $(".back__to__top").fadeIn(300);
+        if (scroll > 500) {
             $(".back__to__top").css("visibility", "visible");
             $(".back__to__top").css("opacity", 1);
             $(".back__to__top").addClass("back__btn__show");
-        }else{
+        } else {
             $(".back__to__top").css("visibility", "hidden");
             $(".back__to__top").removeClass("back__btn__show");
             $(".back__to__top").css("opacity", 0);
-            // $(".back__to__top").fadeOut(500);
         }
     });
+
 
     // ======== back to top ============
     $(".back__to__top").click(function () {
@@ -54,32 +58,45 @@ $(function () {
         slidesToShow: 3,
         slidesToScroll: 1,
         autoplay: false,
-        appendDots:$(".review__slide__btn"),
+        appendDots: $(".review__slide__btn"),
         responsive: [
             {
-              breakpoint: 768,
-              settings: {
-                arrows: false,
-                centerMode: false,
-                slidesToShow: 1,
-                slidesToScroll: 1,
-                autoplay: true,
-                dots:false,
-              }
+                breakpoint: 768,
+                settings: {
+                    arrows: false,
+                    centerMode: false,
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    autoplay: true,
+                    dots: false,
+                }
             },
             {
                 breakpoint: 991,
-              settings: {
-                arrows: false,
-                centerMode: false,
-                slidesToShow: 2,
-                slidesToScroll: 1,
-                autoplay: true,
-                dots:false,
-              }
+                settings: {
+                    arrows: false,
+                    centerMode: false,
+                    slidesToShow: 2,
+                    slidesToScroll: 1,
+                    autoplay: true,
+                    dots: false,
+                }
             },
-            
+
         ]
+    });
+    // ============ after click on menu scroll smooth ==============
+    var $root = $('html, body');
+
+    $('a[href^="#"]').click(function () {
+        var href = $.attr(this, 'href');
+        $root.animate({
+            scrollTop: $(href).offset().top
+        }, 1000, function () {
+            window.location.hash = href;
+        });
+
+        return false;
     });
 });
 

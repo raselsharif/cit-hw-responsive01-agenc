@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
-:root{
+
+:root {
     --myFont: 'Inter', sans-serif;
     --paraColor: #737373;
     --transition: all linear 0.3s;
@@ -12,34 +13,57 @@
     --lineH26: 26px;
 }
 
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
-ul,ol{
+
+html,
+body {
+    scroll-behavior: unset !important;
+}
+
+ul,
+ol {
     list-style-type: none;
 }
-h1,h2,h3,h4,h5,h6, p{
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
     line-height: 0.8;
 }
-h1,h2,h3,h4,h5,h6{
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: var(--myFont);
     color: #151515;
 }
-a{
+
+a {
     text-decoration: none;
     display: inline-block;
     text-transform: capitalize;
 }
-p{
+
+p {
     font-family: var(--myFont);
     font-size: var(--fontS16);
     font-weight: var(--fontW400);
     color: #737373;
     line-height: var(--lineH26);
 }
-.back__to__top{
+
+.back__to__top {
     /* height: 70px; */
     /* width: 50px; */
     border-radius: 10px;
@@ -75,13 +99,16 @@ p{
     z-index: 10000;
 }
 
-.back__btn__show{
+.back__btn__show {
     right: 5px;
 }
-.back__to__top i, .back__to__top h4{
+
+.back__to__top i,
+.back__to__top h4 {
     font-size: 25px;
     color: #fff;
 }
-.back__btn__show:hover{
+
+.back__btn__show:hover {
     opacity: 0.7;
 }

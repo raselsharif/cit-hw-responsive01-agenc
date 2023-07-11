@@ -13,7 +13,6 @@
 
     #navbarNav {
         text-align: center;
-        height: 100vh;
     }
 
     .main__nav__menu {
@@ -302,7 +301,6 @@
 
     #navbarNav {
         text-align: center;
-        height: 100vh;
     }
 
     .main__nav__menu {
@@ -588,7 +586,6 @@
 
     #navbarNav {
         text-align: center;
-        height: 100vh;
     }
 
     .main__nav__menu {
@@ -871,6 +868,7 @@
     /* ========= nav section ============ */
     #main__nav {
         padding: 15px 0;
+        padding-bottom: 50px;
     }
 
     .navbar-brand img {
@@ -879,7 +877,6 @@
 
     #navbarNav {
         text-align: center;
-        height: 100vh;
     }
 
     .main__nav__menu {

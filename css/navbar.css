@@ -67,6 +67,10 @@
     column-gap: 65px;
 }
 
-.active__nav__link {
+.active__nav__link .main__nav__link {
     border-bottom: 2px solid #6A4DF4;
+    display: inline-block;
+    color: #6A4DF4;
+    font-weight: 700;
+    font-size: 18px;
 }
